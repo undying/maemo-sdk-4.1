@@ -17,9 +17,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
         scratchbox-toolchain-arm-linux-cs2010q1-202 \
         sbrshd
 
-COPY maemo-scratchbox-install_4.1.2.sh maemo-sdk-install_4.1.2.sh run.sh /opt/
-RUN chmod +x /opt/maemo-* \
-    && useradd -m maemo
+RUN useradd -m maemo
 
 ### http://scratchbox.org/documentation/user/scratchbox-1.0/html/installdoc.html
 ### http://repository.maemo.org/stable/diablo/INSTALL.txt
