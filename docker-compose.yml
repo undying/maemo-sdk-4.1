@@ -1,4 +1,5 @@
 ---
+command: /bin/bash
 build: .
 net: "host"
 cap_add:
