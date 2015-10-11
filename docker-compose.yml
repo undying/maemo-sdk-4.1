@@ -1,0 +1,6 @@
+---
+build: .
+net: "host"
+cap_add:
+  - ALL
+
