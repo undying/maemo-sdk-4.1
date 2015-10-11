@@ -3,4 +3,6 @@ build: .
 net: "host"
 cap_add:
   - ALL
+stdin_open: true
+tty: true
 
